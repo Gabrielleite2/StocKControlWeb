@@ -133,9 +133,23 @@ body{
 .alinharRotulos {
     text-align: right;
 }
+
+#butao1{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 66%, rgba(0,212,255,1) 99%);
+}
+
+#butao2{
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 66%, rgba(0,212,255,1) 99%);
+
+}
+
+#butao3{
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 66%,rgba(2,0,36,1)  99%);
+}
+
+
 .alinhaBtns {
     width:30%;
-    background-color: black;
     color:rgb(255, 255, 255);
     border:0px;
     padding:5px;
@@ -164,4 +178,13 @@ caption {
     font-weight: bold, initial; 
     font-size: 25px;
     padding-bottom: 10px;
+}
+
+form input, form textarea {
+   border: 200px;
+}
+
+#txtNomeProduto, #txtCodProduto, #qtidadeProduto{
+
+  border-radius: 5px;
 }
